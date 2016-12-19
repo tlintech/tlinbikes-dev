@@ -5,7 +5,6 @@
     Document   : displayStationOnGoogleMap
     Created on : Nov 27, 2015, 12:18:49 PM
     Author     : tlin
-Google Key = AIzaSyAE9xrYlCRr9Pg2nfA8NhugSpBL3nqRuCY
 --%>
 <sql:query var="stations" dataSource="jdbc/divvy">
     SELECT name, latitude, longitude, id FROM divvy.divvy_stations
